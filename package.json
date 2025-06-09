@@ -1,0 +1,30 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint:css && npm run lint:html",
+    "lint:html": "htmlhint **/*.html",
+    "lint:css": "stylelint \"**/*.{css,scss}\"",
+    "lint:css:fix": "stylelint \"**/*.{css,scss}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musaibxandra/Hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musaibxandra/Hello-world/issues"
+  },
+  "homepage": "https://github.com/musaibxandra/Hello-world#readme",
+  "devDependencies": {
+    "htmlhint": "^1.5.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
