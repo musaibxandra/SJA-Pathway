@@ -64,6 +64,12 @@ plugins:
 - User testimonials
 - Newsletter subscription form
 - Modern footer with social links and navigation
+- Browse curated internship and job opportunities
+- Filter listings by category, location, or company
+- Membership plans for enhanced access
+- Secure newsletter subscription
+- Responsive design for mobile and desktop
+- Community and support resources
 
 ## 📸 Screenshots
 
