@@ -1,12 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>SJA Pathway</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1> Hello SJA Pathway! </h1>
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="container main-nav flex">
+                <a class="nav-toggle" href="#" id="nav-toggle">
+                    <i class="bxr  bx-menu-left"></i>
+                </a>
+                <a class="org-logo" href="index.html">
+                    <i class="bxr bx-trip"></i><span>SJA Pathway</span>
+                </a>
+                <div class="nav-links" id="nav-links">
+                    <ul>
+                        <li><a href="index.html" class="hover-link home-active">Home</a></li>
+                        <li><a href="pages/about.html" class="hover-link">About</a></li>
+                        <li><a href="pages/membership.html" class="hover-link">Membership</a></li>
+                        <li><a href="pages/contact.html" class="hover-link">Contact</a></li>
+                        <li><a href="#" class="hover-link secondary-btn">Login</a></li>
+                        <li><a href="#" class="hover-link primary-btn">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- home section  -->
+    <section class="hero">
+        <div class="container hero-section flex">
+            <div class="header-left">
+                <h1>Land your dream job</h1>
+                <p>
+                    <br> From First Steps to Big Leaps,
+                    <br> Explore Internships & Careers
+                </p>
+                <a href="pages/membership.html" class="hover-link primary-btn get-started-btn">Subscribe Now</a>
+            </div>
+            <div class="header-right">
+                <img src="images/work.jpg" atl="hero-image">
+            </div>
+        </div>
+    </section>
+    <!-- Companies section -->
+    <section class="companies-section">
+        <div class="container">
+            <div class="small-bold-text companies-header">Meet our partners..</div>
+            <div class="logos flex">
+                <img src="images/Zapier.png">
+                <img src="images/notion.png">
+                <img src="images/slack.png">
+                <img src="images/congnizant.png">
+                <img src="images/grammarly.png">
+                <img src="images/jetbrains.png">
+                <img src="images/evernote.png">
+                <img src="images/adobe.png">
+                <img src="images/mailchimp.png">
+                <img src="images/landingai.webp">
+                <img src="images/rabbit.jpeg">
+                <img src="images/bigsur.png">
+                <img src="images/mistralai.jpeg">
+                <img src="images/atom.jpeg">
+            </div>
+        </div>
+    </section>
+    <!-- feature-section -->
+    <section class="feature-section">
+        <div>
+            <div class="feature-header">
+                <h2>Your Career’s Swiss Army Knife</h2>
+            </div>
+            <div class="feature-area container flex">
+                <div class="feature-card flex">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <h3>Expert Guidance</h3>
+                    <p>Discover the recipe to get the job you want.</p>
+                </div>
+                <div class="feature-card flex">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Professional Network</h3>
+                    <p>Meet the people who are in the same boat.</p>
+                </div>
+                <div class="feature-card flex">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Remote Jobs</h3>
+                    <p>Jobs from all over the world.</p>
+                </div>
+                <div class="feature-card flex">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h3>Resume and Linkedin tailoring</h3>
+                    <p>Create your perfect resume that will get you hired.</p>
+                </div>
+                <div class="feature-card flex">
+                    <i class="fa-solid fa-person-military-rifle"></i>
+                    <h3>Internships</h3>
+                    <p>Beginners are trained to be professional.</p>
+                </div>
+                <div class="feature-card flex">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Interview Prep</h3>
+                    <p>Mock interviews that will hone your skills.</p>
+                </div>
+            </div>
+            <div class="see-all-btn flex">
+                <a href="pages/membership.html" class="secondary-btn flex"> See all features <i class="bxr  bx-arrow-right-stroke"></i> </a>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section -->
+    <section class="testimonial-section">
+        <div class="container testimonial-container">
+            <div class="testimonial-header">
+                <h2>What our users say..</h2>
+            </div>
+            <div class="testimonial-area container flex">
+                <div class="testimonial-card flex">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>"SJA Pathway helped me land my dream job in tech! The resources and
+                        community support were invaluable."</p>
+                    <h4>- John Doe</h4>
+                </div>
+                <div class="testimonial-card flex">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>"The internship opportunities I found through SJA Pathway were a
+                        game-changer for my career."</p>
+                    <h4>- Jane Smith</h4>
+                </div>
+                <div class="testimonial-card flex">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>"I loved the personalized resume feedback. It made all the difference
+                        in my job search!"</p>
+                    <h4>- Emily Johnson</h4>
+                </div>
+                <div class="testimonial-card flex">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>"The community support on SJA Pathway is amazing. I found mentors who
+                        guided me through the process."</p>
+                    <h4>- Michael Brown</h4>
+                </div>
+                <div class="testimonial-card flex">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>"SJA Pathway's resources helped me prepare for interviews like a pro.
+                        I felt confident and ready!"</p>
+                    <h4>- Sarah Wilson</h4>
+                </div>
+                <div class="testimonial-card flex">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>"I can't thank SJA Pathway enough for connecting me with my current
+                        job. It's a perfect fit!"</p>
+                    <h4>- David Lee</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cta section -->
+    <section class="cta-section">
+        <div class="container cta-container flex">
+            <div class="cta-left">
+                <h2>Ready to take the next step in your career?</h2>
+                <p>Join SJA Pathway today and unlock a world of opportunities!</p>
+            </div>
+            <div class="cta-right">
+                <a href="pages/membership.html" class="primary-btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Now -->
+    <section class="subscribe-section">
+        <div class="container">
+            <div class="subscribe-header">
+                <h2>Subscribe to our newsletter</h2>
+            </div>
+            <div class="subscribe-area flex">
+                <h3>Get the latest updates and job opportunities directly in your inbox.</h3>
+                <form action="#" method="post" class="subscribe-form flex" id="subscribe-form" name="subscribe-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="primary-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer-section flex">
+        <div class="footer-left">
+            <div class="footer-box">
+                <a class="org-logo" href="#">
+                    <i class="bxr bx-trip"></i><span>SJA Pathway</span>
+                </a>
+            </div>
+            <p>GymWest, 50th street,4th Avenue, <br>New York, NY 10001</p>
+            <p>© 2023 SJA Pathway. <br>All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="link-columns flex">
+                <div class="link-column flex">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="link-column flex">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">GDPR Compliance</a>
+                </div>
+                <div class="link-column flex">
+                    <h4>Contact</h4>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Support</a>
+                    <a href="#">Feedback</a>
+                    <a href="#">Partnerships</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+                <a href="#">Support</a>
+            </div>
+            <div><p><br>© 2023 SJA Pathway.</p></div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+
 </body>
+
 </html>

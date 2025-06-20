@@ -1,6 +1,8 @@
 <a name="readme-top"></a>
 
+### Demo :
 
+[Watch Preview](https://drive.google.com/file/d/12jAqVLQvObPCjowWtPs3u2TWyWbXkFur/view?usp=sharing)
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -11,16 +13,15 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
   - [Installation](#installation)
 - [Author](#author)
 - [Socials](#socials)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello SJA Pathway! <a name="about-project"></a>
+# SJA Pathway <a name="about-project"></a>
 
-**Hello SJA Pathway!** is a simple landing page that greets the SJA Pathway Community. This Project touches on the essential concepts of software engineering such as working with Git, Version Vontrol, Github flow, Pull requests and more.
+**SJA Pathway!** SJA Pathway is a career and internship platform designed to empower students and professionals in achieving their career goals. The website connects users with valuable internship and job opportunities, offers expert career guidance, and fosters a supportive community. Through partnerships with leading organizations, SJA Pathway provides access to real-world experiences, professional networking, and tailored resources to help users build successful careers. Join SJA Pathway to take the next step toward your dream job and unlock a world of opportunities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,13 +49,33 @@
   </ul>
 </details>
 
+plugins:
+- **Font Awesome & Boxicons** – Iconography
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- Loads up SJA Pathway page
+- Responsive design for all devices
+- Hero section with a clear call-to-action
+- Partner companies showcase
+- Feature highlights for career and internship seekers
+- User testimonials
+- Newsletter subscription form
+- Modern footer with social links and navigation
+- Browse curated internship and job opportunities
+- Filter listings by category, location, or company
+- Membership plans for enhanced access
+- Secure newsletter subscription
+- Responsive design for mobile and desktop
+- Community and support resources
 
+## 📸 Screenshots
+
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop Screenshot](images/Desktop_view.png) | ![Mobile Screenshot](images/mobile_view.jpeg) |
 
 
 <!-- GETTING STARTED -->
@@ -71,24 +92,23 @@ In order to run this project you need:
 - Node.js
 - Linters
 
-### Setup
+### Installation
 
-#### Git:
-
-- For MacOS:
-    ```sh
-    brew install git
-    ```
-
-- For Windows:
+1. **Clone the repository:**
     ```bash
-    curl -L https://git-scm.com/download/win -o Git-Installer.exe && start Git-Installer.exe
+    git clone https://github.com/musaibxandra/Hello-world.git
+    cd Hello-world
     ```
 
-- For Linux:
-    ```sh
-    sudo apt update && sudo apt install git -y
+2. **(Optional) Install linters:**
+    ```bash
+    npm install
+    npm run test
     ```
+
+3. **Open `index.html` in your browser to view the site.**
+
+---
 
 #### Node.js:
 
@@ -108,23 +128,6 @@ In order to run this project you need:
     curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
     sudo apt-get install -y nodejs
     ```
-
-- For Linters:
-    - Add a copy of `.github/workflows/linters.yml`
-    - For HTML linter install HTMLhint by running:
-        ```bash
-        npm install htmlhint --save-dev
-        ```
-    - Make configurations in `.hintrc` file
-    - For CSS linter install stylelint by running:
-        ```bash
-        npm install --save-dev stylelint stylelint-config-standard stylelint-tree-validator
-        ```
-    - Make configurations in `.stylehintrc.json` file
-    - Run all linting checks:
-        ```
-        npm run test    
-        ```
 
 ### Installation
 
