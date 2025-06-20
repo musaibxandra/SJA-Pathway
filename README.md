@@ -32,22 +32,17 @@
   <summary>Client</summary>
   <ul>
     <li>HTML</li>
+    <li>CSS</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>CSS</li>
-  </ul>
-</details>
-
-<details>
-<summary>Package Manager</summary>
-  <ul>
     <li>Node.js</li>
   </ul>
 </details>
+
 
 plugins:
 - **Font Awesome & Boxicons** – Iconography
