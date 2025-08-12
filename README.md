@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
 
-### Demo & Link:
+### Link:
 
-[Watch Preview](https://drive.google.com/file/d/12jAqVLQvObPCjowWtPs3u2TWyWbXkFur/view?usp=sharing)
 
-[Live Link](https://drive.google.com/file/d/12jAqVLQvObPCjowWtPs3u2TWyWbXkFur/view?usp=sharing)
+[Click here](https://drive.google.com/file/d/12jAqVLQvObPCjowWtPs3u2TWyWbXkFur/view?usp=sharing)
 
 
 
