@@ -1,9 +1,9 @@
 <a name="readme-top"></a>
 
-### Link:
+### Link to the Website:
 
 
-[Click here](https://drive.google.com/file/d/12jAqVLQvObPCjowWtPs3u2TWyWbXkFur/view?usp=sharing)
+[Click here](https://sja-pathway.vercel.app/)
 
 
 
